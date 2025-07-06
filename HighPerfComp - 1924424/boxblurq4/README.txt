@@ -1,0 +1,1 @@
+make sure you compile the file with nvcc -o boxblurCUDA boxblurCUDA.cu -lpng
