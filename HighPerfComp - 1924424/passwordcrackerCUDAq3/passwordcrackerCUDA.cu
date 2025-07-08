@@ -267,12 +267,4 @@ int main() {
     return 0;
 }
 
-/*
-Compilation instructions:
-nvcc -o passwordcrackerCUDA passwordcrackerCUDA.cu
-./passwordcrackerCUDA
-
-Note: This program will test all possible combinations of 2 lowercase letters
-followed by 2 digits (aa00 to zz99), which is 67,600 total combinations.
-The GPU parallelization should make this very fast.
-*/
+//Note to self:nvcc -o passwordcrackerCUDA passwordcrackerCUDA.cu ./passwordcrackerCUDA
